@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+         body {
+            background-color: antiquewhite;
+        }
+        
+        #coca-cola {
+            text-align: center;
+            background-color: white;
+            padding: 12px;
+            position: sticky;
+        }
+        #cart-btn{
+            text-decoration: none;
+            color: red;
+        }
+        .marq {
+            position: sticky;
+            max-width: 100%;
+            max-height: 100%;}
+       
+        .choix2 .v{
+            height: 60%;
+    top: 63%;
+    left: 10%;
+    width: 20%;
+    position: absolute;
+    border-radius: 20px;
+
+    
+        }
+        .choix2 .p{
+     height: 60%;
+    top: 63%;
+    left: 70%;
+    width: 20%;
+    position: absolute;
+    border-radius: 20px;
+        }
+        .choix2 .c{
+            height: 60%;
+    top: 63%;
+    left: 40%;
+    width: 20%;
+    position: absolute;
+    border-radius: 20px;}
+  
+head div{
+    width: 100%;
+}
+#page-header h2,
+#page-header p{
+    background-color: rgb(202, 91, 54);
+        height: 100% ;
+        padding: 20px;
+        position: a;
+        text-align: center;
+}
+#coca-cola{
+    background-color: white;
+        height: 90% ;
+        padding: 12px;
+}
+#cola-cola img{
+    text-align: center;
+    left: 100%;
+    position: relative;
+  
+}
+
+#icons{
+font-size: 20px;
+color: rgb(239, 17, 17);
+cursor: pointer;
+}
+
+    </style>
+</head>
+<body>
+    <header class="header" >
+        <a href="#" class="logo">
+            <img src="image/img.png" alt=""style="height: 100px; width: 140px;" >
+        </a>
+        <nav class="navbar" >
+            <a href="index.html"id="nav-accueil">Accueil</a>
+            <a href="propos.html" id="nav-apropos">Apropos</a>
+            <a href="temoingnage.html"id="nav-temoignage">Temoingnage</a>
+            <!-- <a href="service.html" id="nav-service">Service</a> -->
+            <a href="contact.html" id="nav-contact">Contact</a>
+        </nav>
+       
+       
+        <div id="icons">
+            <input type="search" id="search-box" placeholder="chercher...">
+            <label for="search-box" class="fas fa-search"></label>
+            <a href="ajouter_panier.php"><div class="fas fa-shopping-cart" id="cart-btn"></div></a>
+            <div class="fas fa-bars" id="menu-btn"></div>
+            
+        </div>
+        <!-- <a href="#" class="btn">checkoot now</a> -->
+</header>
+    <main id="coca-cola">
+        <img src="image/marqueC.jpg" class="marq">
+    </main>
+   
+    <main id="page-header">
+ 
+        <h2>Les différentes bouteilles</h2>
+        <p> Choisir votre bouteille préfere </p>
+    </main>
+
+
+    <article class="choix2">
+        
+    <form action="commande.php" method="post">
+   <a href="verre.php"><img src="image/cocaV.jpg" class="v"></a>
+  
+     </form>
+
+<form action="commande.php" method="post">
+   <a href="plastic.php"> <img src="image/cocaP.jpg" class="p"></a>
+   
+   
+
+ 
+</form>
+
+<form action="commande.php" method="post">
+    <a href="canette.php"><img src="image/cocaC.jpg" class="c"></a>
+    
+</form>
+</article>
+</body>
+</html>

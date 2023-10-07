@@ -1,0 +1,540 @@
+
+section{
+    position: absolute;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: rgb(173, 34, 34);
+    top:610%;
+    padding: 5%;
+}
+section::before{
+    content: '';
+    position:absolute;
+
+    left:0;
+    width: 50%;
+    height: 100%;
+    background:black ;
+}
+.container{
+    position: relative;
+    min-width: 1100px;
+    min-height: 550px;
+    display:flex;
+    z-index:1000;  
+
+}
+.container .contactInfo{
+    position: absolute;
+     top:10%; 
+    width: 350px;
+    height: calc(100% - 80px);
+    background: rgb(173, 34, 34);
+    z-index: 1;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 20px 25px rgba(0, 0,0, 0.15);
+}
+.container .contactForm{
+    position: absolute;
+    padding: 70px 50px;
+    padding-left: 250px;
+    /* padding-right: 100%; */
+    margin-left: 150px; 
+width:calc(100% - 150px);
+    height: 100%; 
+    background: #fff;
+    box-shadow: 0 50px 50px rgba(0,0,0.15);
+    /* top: 400%; */
+}
+.container .contactForm h2{
+    color:rgb(173, 34, 34);
+    font-size:24px;
+    font-weight:500;
+}
+
+.container .contactInfo h2{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 500;
+    pointer-events: none;
+    font-size: 18px;
+    font-weight: 300;
+    transition: 0.3s;
+}
+
+.container .contactInfo ul.info{
+    position: relative;
+    margin: 20px 0;
+}
+.container .contactInfo ul.info li{
+    position: relative;
+    list-style: none;
+    display: flex;
+    margin: 20px 0;
+    cursor: pointer;
+    align-items: flex-start;
+}
+.container .contactInfo ul.info li span:nth-child(1){
+    width: 30px;
+    min-width: 30px;
+}
+.container .contactInfo ul.info li span:nth-child(1) img{
+max-width: 100%;
+filter:invert(1);
+}
+.container .contactInfo ul.info li span:nth-child(2){
+    color:#fff;
+    margin-left: 10px;
+    font-weight: 300;
+}
+.container .contactInfo ul.sci{
+    position: relative;
+    display: flex;
+}
+.container .contactInfo ul.sci li{
+    list-style: none;
+    margin-left:15px ;
+}
+.container .contactInfo ul.sci li a img{
+    filter: invert(1);
+}
+body{
+
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    /* background-color: #f0f0f0; */
+    background-size: cover; 
+    background-attachment: fixed;
+    /* background-color: white; */
+    /* filter:brightness(70%);  */
+        
+ background-image: url("wiw.jpg");
+}
+*{
+    
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box ;
+        font-family: verdana;
+    
+
+}
+header{
+    color:#0a0a0a;
+    /* background-color: black; */
+    text-align: center;
+    display:flex;
+    align-items: center; 
+   justify-content: space-between;
+    padding: 5px ;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.06);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+
+header.a.logo{
+    margin-top: 50px; /* Added margin to push the logo down from the top */
+    top:0px
+}
+nav a {
+    font-size: 16px;
+    font-weight: 300;
+    color: #1a1a1a;
+    transition: 0.3s ease;
+    color: #0a0a0a;
+    text-decoration: none;
+    margin: 0 1rem;
+    cursor: pointer;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+
+.icons {
+font-size: 20px;
+color: rgb(239, 17, 17);
+cursor: pointer;
+}
+main h2{
+align-items: center;
+text-align: center;
+padding: 2rem;
+}
+.commander h3{
+    background-image: url("image/kk.jpg");
+    background-color: rgb(235, 237, 237);
+    background-repeat: no-repeat;
+position: absolute;
+backdrop-filter: blur(5px);
+margin: 90px;
+color: rgb(203, 53, 53);
+border-bottom: solid red 3px;
+border-radius: 10px;
+width: 300px;
+height: 150px;
+text-align: center;
+top: 45%;
+left :20px;
+}
+.commander button a{
+position: absolute;
+background-color:red;
+color: white;
+padding: 7px;
+border: none;
+border-radius: 10px;
+top: 85%;
+text-align: center;
+left: 10%; 
+text-decoration: none;
+}
+.commander button a:hover{
+background-color: rgb(181, 24, 24);
+cursor: pointer;
+}
+
+.commande h3{
+    background-image: url("image/h.jpg");
+position: absolute;
+margin: 90px;
+color:rgb(203, 53, 53);
+border-bottom: solid red 3px;
+border-radius:10px ;
+width: 300px;
+height: 150px;
+text-align: center;
+left: 60%;
+top:45%;
+}
+.commande button a{
+position: absolute;
+background-color: red;
+color:white;
+padding: 7px;
+text-decoration:none;
+border:none;
+border-radius: 10px;
+text-align: center;
+left:67.5%;
+top:85%;
+}
+.commande button a:hover{
+background-color: rgb(181, 24, 24);
+cursor: pointer;
+}
+#app h1{
+    color: white;
+    background-color: rgb(243, 208, 11);
+    text-align: center;
+    
+    top: 17.5%;
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+    width: 100%;
+    }
+.historique p {
+color: black;
+top: 120%;
+position: absolute;
+left: 50%;
+width: 100%;
+transform: translateX(-50%);
+}
+.historique h3{
+color: rgb(209, 23, 23);
+top: 113%;
+position: absolute;
+left: 50%;
+width: 100%;
+transform: translateX(-50%);
+}
+.l h3{
+color: rgb(209, 23, 23);
+top: 150%;
+position: absolute;
+left: 50%;
+width: 100%;
+transform: translateX(-50%);
+}
+#tem h1{
+color: white;
+background-color: black;
+text-align: center;
+top:310% ;
+position: absolute;
+transform: translateX(-50%);
+left: 50%;
+width: 100%;
+}
+#ser h1{
+color: white;
+background-color: black;
+text-align: center;
+top:420% ;
+position: absolute;
+transform: translateX(-50%);
+left: 50%;
+width: 100%;
+}
+#con h1{
+color: white;
+background-color: black;
+text-align: center;
+top:600% ;
+position: absolute;
+transform: translateX(-50%);
+left: 50%;
+width: 100%;
+}
+table {
+    width: 70%;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+    top: 160%;
+    position: absolute;
+}
+
+th, td {
+    padding: 5px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+th {
+    background-color: #f0f0f0;}
+.pro h3{
+        color: rgb(209, 23, 23);
+top: 1020px;
+position: relative;
+left: 50%;
+width: 100%;
+transform: translateX(-50%);
+    }
+.pro table{
+width: 30%;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+    top: 235%;
+    position: absolute;
+  
+}
+.pro th,
+.pro td {
+padding: 5px;
+border: 1px solid #ccc;
+text-align: left;
+font-size: 12px; /* Adjust this value as needed */
+}
+
+.pro th {
+background-color: #f0f0f0;
+}
+.pr table{
+    width: 30%;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+    top: 235%;
+    position: absolute;
+    left: 35%;
+  
+}
+.p table{
+    width: 30%;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+    top: 235%;
+    position: absolute;
+    left: 70%;
+}
+.containerr{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e3f2e3;
+}
+.testimonial {
+    position: absolute;
+    max-width: 300px;
+    width: 100%;
+  padding: 50px 0;
+  top:-283% ;
+    left: 3%;
+    background-color: rgb(201, 25, 25);
+  
+}
+.testimonial .image{
+    height: 170px;
+    width: 170px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.testimonial .slide{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap:30px ;
+}
+.slide p{
+    padding: 0 16px;
+text-align: center;
+font-size: 14px;
+font-weight: 500;
+color: #333;
+}
+.slide .quote-icon{
+    font-size: 30px;
+    color: #404040;
+}
+.slide .details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.details.name{
+font-size: 14px;
+font-weight: 600;
+color:#333;
+}
+.details.job{
+    font-size: 12px;
+    font-weight:400;
+    color:#333;
+    }
+   .testimonials{
+    position: absolute;
+    max-width: 300px;
+    width: 100%;
+  padding: 50px 0;
+  top:-283% ;
+    left: 38%;
+    background-color: rgb(201, 25, 25);
+   }
+   .testimonials .image{
+    height: 170px;
+    width: 170px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.testimonials .slide{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap:30px ;
+}
+.slide p{
+    padding: 0 16px;
+text-align: center;
+font-size: 14px;
+font-weight: 500;
+color: #333;
+}
+.slide .quote-icon{
+    font-size: 30px;
+    color: #404040;
+}
+.slide .details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.details.name{
+font-size: 14px;
+font-weight: 600;
+color:#333;
+}
+.details.job{
+    font-size: 12px;
+    font-weight:400;
+    color:#333;
+    }
+.testimonialss{
+        position: absolute;
+        max-width: 300px;
+        width: 100%;
+      padding: 50px 0;
+      top:-283% ;
+        left: 73%;
+        background-color: rgb(201, 25, 25);
+       }
+
+.testimonialss .image{
+        height: 170px;
+        width: 170px;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+.testimonialss .slide{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        row-gap:30px ;
+    }
+.slide p{
+        padding: 0 16px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    color: #333;
+    }
+.slide .quote-icon{
+        font-size: 30px;
+        color: #404040;
+    }
+.slide .details{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .details.name{
+    font-size: 14px;
+    font-weight: 600;
+    color:#333;
+    }
+    .details.job{
+        font-size: 12px;
+        font-weight:400;
+        color:#333;
+        }
+        #h{
+            text-align: center;
+            left: 68.5%;
+            top:50%;
+            position: absolute;
+        }
+        #hh{
+            text-align: center;
+            left: 10.5%;
+            top:50%;
+            position: absolute;
+        }
+        head img{
+            width: 100%;
+            position: absolute;
+            text-align: center;
+        }
+.marq{
+   height: 50px;
+    text-align: center;
+    position: relative;
+    background-color: white;
+}

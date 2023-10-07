@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        nav {
+            background-color: #444;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 1rem;
+        }
+
+        main {
+            padding: 2rem;
+            text-align: center;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+        }
+        #Apropos h1{
+    text-align: center; /* Centrer le contenu horizontalement */
+    position: absolute; /* Position absolue pour placer en bas */
+    bottom: 0; /* Placer en bas */
+    left: 50%; /* Centrer horizontalement */
+    transform: translateX(-50%); /* Ajuster la position pour le centrage */
+    width: 100%; /* Occuper toute la largeur */
+    /* Ajouter de l'espace autour du texte */
+    background-color: black;
+    color: white;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to our Website</h1>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </nav>
+    <main>
+        <h2>Welcome to our Home Page</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sed nisi at odio pulvinar suscipit eget a nunc. Sed tincidunt, velit id ultrices accumsan, lorem ipsum feugiat eros, sit amet eleifend elit purus quis nunc. Duis efficitur leo euismod purus luctus tristique. Fusce auctor velit quis dolor auctor, vel varius est elementum.</p>
+    </main>
+    <footer>
+        &copy; 2023 Our Company. All rights reserved.
+    </footer>
+</body>
+</html>
+
+
+<div id="tem">
+    <h1 id="temoingnage">Temoignage</h1>
+    <section class="containerr">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <!-- Add Swiper slides here -->
+                <div class="swiper-slide">
+                    <!-- Your testimonial content -->
+                </div>
+                <!-- Repeat for other testimonials -->
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+</div>
+<section class="containerr">
+    <div class="testimonial">
+        <div class="testi-centent">
+            <div class="slide">
+                <img src="man.jpg" class="image">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur ipsa, voluptate repellat aut velit at alias soluta, quos enim explicabo maiores eligendi omnis. Aut autem rerum, eum a nisi hic?</p>
+                <i class="bx bxs-quote-alt-left quote-icon" ><img src="''.png" ></i>
+                <div class="details">
+                    
+                    <span class="name">Marnie lotter</span>
+                    <span class="job">web declopper</span>
+                </div>
+            </div>
+        </div>
+    </div>
+   </section>
+  

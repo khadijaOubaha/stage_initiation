@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Document</title>
+    <style> 
+    #header {
+    position: sticky;
+    top: 0; /* Ancrer en haut de la page */
+    z-index: 100; /* Assurer que l'en-tête est au-dessus du contenu */
+    background-color: white; /* Ajoutez la couleur de fond que vous préférez */
+}
+        #cart-btn{
+        text-decoration: none;
+        color: white;
+    }
+    #intro{
+        position:absolute;
+        top: 50%;
+    }
+    #intro h2 {
+            background-color: rgb(242, 226, 8);
+            color: white;
+            font-size: 28px;
+            padding: 10px 20px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+
+    #body{
+        position:absolute;
+        top: 60%;
+        left: 35%;
+        
+    }
+    #fiche h3{
+        position: relative;
+        left: 30%;
+        color: red;
+
+    }
+    #fiche img{
+        position: relative;
+        left: 50%;
+        top: 40%;
+        color: red;
+
+    }
+    #fiche{
+        position: absolute;
+        top:130% ;
+    }
+    #table {
+        position: absolute;
+        width: 85%;
+        left: 35%;
+        top: 130%;
+    }
+    #foot{
+        position: absolute;
+        width: 24%;
+        left:20%;
+        bottom: -250%;
+        height: 60%;
+        right: 0%;
+        top: 250%;
+    }
+    #bout{
+        position: absolute;
+        top: 200%;
+    }
+    .choix2 h2{
+            color:#0a0a0a;
+    left: 43%;
+    
+    text-align: center;
+    padding: 5%px;
+    display:flex;
+    align-items: center; 
+   justify-content: space-between;
+   position: absolute; 
+        }
+        .choix2 .v{
+            height: 60%;
+    top: 239%;
+    left: 5%;
+    width: 20%;
+    position: absolute;
+    border-radius: 20px;
+
+    
+        }
+        .choix2 .p{
+     height: 60%;
+    top: 310%;
+    left: 75%;
+    width: 20%;
+    position: absolute;
+    border-radius: 20px;
+        }
+        .choix2 .c{
+            height: 60%;
+    top: 361%;
+    left: 5%;
+    width: 20%;
+    position: absolute;
+    border-radius: 20px;}
+  
+head div{
+    width: 100%;
+}
+#page-header h2,
+#page-header p{
+    background-color: rgb(202, 91, 54);
+        height: 100% ;
+        padding: 20px;
+        position: relative;
+        text-align: center;
+}
+#coca-cola{
+    background-color: white;
+        height: 90% ;
+        padding: 12px;
+}
+#cola-cola img{
+    text-align: center;
+    left: 100%;
+    position: relative;
+  
+}
+.info_coca_verre{
+    background-color: white;
+    position: absolute;
+    padding: 14px;
+    left: 40%;
+    right: 4%;
+    top: 239%;
+    height: 50%;
+    border-radius: 20px;
+}
+.info_coca_plastic{
+    background-color: white;
+    position: absolute;
+    padding: 14px;
+    left: 4%;
+    right: 40%;
+    top: 310%;
+    height: 50%;
+    border-radius: 20px;
+}
+.info_coca_canette{
+    background-color: white;
+    position: absolute;
+    padding: 14px;
+    left: 40%;
+    right: 4%;
+    top: 371%;
+    height: 50%;
+    border-radius: 20px;
+}
+#icons{
+font-size: 20px;
+color: rgb(239, 17, 17);
+cursor: pointer;
+}
+
+    </style>
+</head>
+<body style="background-color: white;">
+     <header class="header"  style="background-color: rgb(241, 50, 50); z-index: 999;position:fixed;width: 100%;">
+        <a href="#" class="logo">
+            <img src="image/img.png" alt=""style="height: 100px; width: 140px;" >
+        </a>
+        <nav class="navbar">
+            <a href="index.html">Accueil</a>
+            <a href="propos.html">Apropos</a>
+            <a href="temoingnage.html">Temoingnage</a>
+            <!-- <a href="service.html">Service</a> -->
+            <a href="contact.html">Contact</a>
+        </nav>
+       
+       
+        <div class="icons">
+            <input type="search" id="search-box" placeholder="chercher...">
+            <label for="search-box" class="fas fa-search"></label>
+            <a href="ajouter_panier.php"><div class="fas fa-shopping-cart" id="cart-btn"></div></a>
+            <div class="fas fa-bars" id="menu-btn"></div>
+            
+        </div>
+        <!-- <a href="#" class="btn">checkoot now</a> -->
+    </header>
+<div id="intro">
+    <h2  style="position: absolute; top: -35%; left: 25%;">Apropos:</h2>
+    <H3 style="position: relative;left: 20%;color: red;">1-C'est quoi SBGS ? :
+    </H3>
+    <img src="ppp.jpeg" alt="??" style="position: relative;">
+</div>
+<div id="body">
+    La société <big>SBGS</big>(Société des Boissons Gazeuses du Souss) a été créée en 1 août 1971 par MONSIEUR HASSANE EL MASSOUDI, sur une surface qui n'a pas dépassé 1000 m2
+    au début. Cette création qui a 
+    nécessité un effectif de 150 employés, et un capital de 100000.00 Drh investie 
+    principalement sous forme de machines industrielles qui permettaient à la société une 
+    production qui s'élève à 12000 bouteilles/h. <br> La société des boissons gazeuses du Souss
+    est devienne l'une des plus grandes sociétés dans la région du sud.
+    La société des boissons gazeuses du Souss est une société anonyme 
+    (S.A), situé à la Zone industrielle TASSILA, AGADIR a pour activité la mise en 
+    bouteille et la distribution des boissons gazeuses et des eaux de table.
+</div>
+
+<div id="fiche">
+    <h3>2-Fiche technique :</h3>
+    <img src="fff.jpeg" >
+</div>
+    <div id="table">
+    <table>
+        <tr>
+            <th>Raison sociale</th>
+            <td>Société des Boissons Gazeuses du Souss (SBGS)</td>
+        </tr>
+        <tr>
+            <th>Date de création</th>
+            <td>1 Aout 1971</td>
+        </tr>
+        <tr>
+            <th>Activité</th>
+            <td>La mise en bouteille et la distribution des boissons gazeuses et des eaux de table.</td>
+        </tr>
+        <tr>
+            <th>Forme juridique</th>
+            <td>S.A (société anonyme)</td>
+        </tr>
+        <tr>
+            <th>Capital social</th>
+            <td>30.000.000 DH</td>
+        </tr>
+        <tr>
+            <th>Siege social</th>
+            <td>Zone industrielle TASSILA, AGADIR</td>
+        </tr>
+        <tr>
+            <th>Effectif</th>
+            <td>40 cadres et 350 employés</td>
+        </tr>
+        <tr>
+            <th>D'identification</th>
+            <td>251131</td>
+        </tr>
+        <tr>
+            <th>Patente </th>
+            <td>48763705   </td>
+        </tr>
+        <tr>
+            <th>Registre commerce</th>
+            <td> 93/340</td>
+        </tr>
+    </table>
+</div>
+
+
+<div id="bout">
+    <br>
+    <br>
+    <br>
+    <br>
+    <br><br>
+    
+    
+    <h3 style="position: relative;left: 8%;color: red;">3-les différents types de bouteilles de notre société:</h3>
+ 
+</div>
+<div id="vpc">
+    <article class="choix2">
+        
+       <img src="boo.jpeg" class="v">
+       <div class="info_coca_plastic"> 
+       <h3>Avantages de bouteille plastique  :</h3><br>
+        <p> <li>Il est léger, ce qui rend le transport de produits plus durable et efficace.<br></li>
+        <li>Il est solide.<br></li>
+    <li>Il s'agit d'un matériau de premier ordre pour conserver la qualité et garantir la sécurité  de nos boissons.<br></li>
+    <li>  Il est clair et transparent (bonne visibilité du produit les consommateurs trouvent que c'est important).<br></li>
+    <li>  Il peut être façonné dans presque toutes les formes et les tailles de bouteilles. ..</li></p>
+    </div>
+         </form>
+    
+    
+      <img src="lp.jpg" class="p">
+       
+       
+    <div class="info_coca_verre"> 
+        <h3>Avantages de bouteille en verre :</h3><br>
+        <p> <li>Les récipients en verre sont inertes au contact des aliments, ne s'oxydent pas, sont imperméables aux gaz et ne nécessitent pas d'additifs pour conserver les aliments emballés. En outre, le verre utilisé dans les conteneurs ne migre pas dans le produit.<br></li>
+        <li>Le verre préserve les minéraux et les propriétés nutritionnelles des aliments, ainsi que leurs saveurs.<br></li>
+    <li>Les bouteilles en verre ne gardent pas les odeurs des boissons, ce qui n'est pas toujours le cas avec les contenants en plastique.<br></li>
+    <li>  Le verre est écologique, réutilisable et recyclable. Il ne présente aucun danger pour l'environnement, car il ne libère pas de produit toxique contrairement au plastique.<br></li></p>
+       </div>
+     
+    </form>
+    
+  
+        <img src="lc.jpeg" class="c">
+        <div class="info_coca_canette"> 
+            <h3>Avantages de canette :</h3><br>
+            <p> <li>les canettes à un poids léger<br></li>
+            <li> une facilité d'empilage et  une résistance relative.<br></li>
+        <li>les canettes d'aluminium sous forme de produit fini peuvent être transportées de façon sécuritaire et permettent la réduction des coûts de transport et des émissions.<br></li></p>
+           </div>
+    </form>
+    </article>
+</div>
+<div id="foot">
+<footer class="site-footer" style="position: absolute; top: 400%;">
+    <div class="footer-top">
+        <div class="footer-logo">
+            <img src="logf.png" alt="Logo" width="150">
+        </div>
+        <div class="footer-menu">
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="propos.html">A Propos</a></li>
+                <li><a href="temoingnage.html">Temoignages</a></li>
+                <li><a href="servise.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="contact" style="position: relative; left: 6%;top: 30%;">
+       <h4>Contact</h4> 
+       <br>
+       <br>
+       <UL>
+
+        <li style="text-decoration: none;"><br><A href="#">Adresse : 9FR9+3JW, Quartier Industriel Tassila ,
+            Rte De Marrakech, Agadir
+            80000</A></li>
+        <li ><a href="#">Tel : +212 5288-33333</a></li>
+       </UL>
+
+
+
+    </div>
+    <div class="footer-bottom">
+        <div class="social-icons">
+            <a href="https://web.facebook.com/sbgs.ma"><i class="fab fa-facebook-f"></i></a>
+            
+        </div>
+        <p>&copy; 2023 STE DES BIOSSONS GAZEUSES DU SOUSS. Tous droits réservés.</p>
+    </div>
+    <div class="health-message">
+        Pour votre santé, évitez de manger trop gras, trop sucré, trop salé.
+    </div>
+</footer>
+</div>
+  
+
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
